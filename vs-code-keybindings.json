@@ -1,0 +1,188 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+alt+cmd+g",
+    "command": "gitlens.views.repositories:explorer.focus"
+  },
+  {
+    "key": "ctrl+s [",
+    "command": "search.action.collapseSearchResults"
+  },
+  {
+    "key": "cmd+e [",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+k e",
+    "command": "-workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "cmd+k e",
+    "command": "workbench.explorer.fileView.focus"
+  },
+  {
+    "key": "cmd+k t",
+    "command": "timeline.focus"
+  },
+  {
+    "key": "cmd+k g",
+    "command": "scm:repository:949326060.focus"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "-workbench.action.closeFolder"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "cmd+k f",
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+  {
+    "key": "cmd+k shift+p",
+    "command": "projectsExplorerFavorites.focus"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "-workbench.view.explorer"
+  },
+  {
+    "key": "cmd+k backspace",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-workbench.action.terminal.clear",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+k x",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "-workbench.view.extensions"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "cmd+k cmd+g",
+    "command": "workbench.scm.focus"
+  },
+  {
+    "key": "cmd+k shift+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "cmd+k ctrl+shift+down",
+    "command": "workbench.action.newGroupBelow"
+  },
+  {
+    "key": "cmd+k shift+alt+down",
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "cmd+k shift+alt+up",
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "cmd+k shift+alt+left",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "cmd+k shift+alt+right",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "cmd+k ctrl+shift+up",
+    "command": "workbench.action.newGroupAbove"
+  },
+  {
+    "key": "cmd+k ctrl+shift+left",
+    "command": "workbench.action.newGroupLeft"
+  },
+  {
+    "key": "cmd+k ctrl+shift+right",
+    "command": "workbench.action.newGroupRight"
+  },
+  {
+    "key": "cmd+k shift+f",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "-editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "editor.action.formatSelection.multiple"
+  }
+]
